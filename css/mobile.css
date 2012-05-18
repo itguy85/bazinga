@@ -1,0 +1,118 @@
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,form,fieldset,input,textarea,p,blockquote,th,td { 
+	margin:0;
+	padding:0;
+}
+table {
+	border-collapse:collapse;
+	border-spacing:0;
+}
+fieldset,img { 
+	border:0;
+}
+address,caption,cite,code,dfn,em,strong,th,var {
+	font-style:normal;
+	font-weight:normal;
+}
+ol,ul {
+	list-style:none;
+}
+caption,th {
+	text-align:left;
+}
+h1,h2,h3,h4,h5,h6 {
+	font-size:100%;
+	font-weight:normal;
+}
+q:before,q:after {
+	content:'';
+}
+abbr,acronym { border:0;
+}
+/* The following statement protects the code from browsers that ignore the handheld attribute and apply the mobile styles to the normal page */
+
+@media handheld {
+
+		.selector-01 {
+			padding: 0;
+			margin: 0;
+			}
+		.selector-02 {
+			padding: 0;
+			margin: 0;
+			}
+		.selector-03 {
+			padding: 0;
+			margin: 0;
+			}
+			
+}
+
+@media screen and (max-width: 320px, max-height: 356px) {
+
+	#content {
+		width: auto;
+		float: none;
+	}
+	#sidebar {
+		width: auto;
+		float: none;
+	}
+	#contact {
+		width: auto;
+		float: none;
+	}
+	#piccontainer {
+		display: none;
+	}
+}
+
+html, body {
+		font: 12px/15px sans-serif;
+		background: #fff;
+		padding: 3px;
+		color: #000;
+		margin: 0;
+		}
+		
+/* This ensures that the floats set in the main css are ignored since mobile devices display everything in a single column */
+* {
+		float: none;
+		}
+		
+/* This will hide the unwanted elements on the page from showing up in the mobile version */
+#sidebar, #footer {
+		display: none;
+		}
+		
+/* This will change all headings to a normal weight to speed up loading */
+h1, h2, h3, h4 {
+		font-weight: normal;
+		}
+		
+/* This will change all images to a set width so they still show up properly in the mobile version of the site */
+#content img {
+		max-width: 250px;
+		}
+		
+/* This will underline the links again in the mobile version making sure the viewer can see the links are stil there and not just text */
+a:link, a:visited {
+		text-decoration: underline;
+		color: #9999FF;
+		}
+a:hover, a:active {
+		text-decoration: underline;
+		color: #660066;
+		}
+		
+/* This is just for the iphone, YAY iPhone this uses benefits of the iPhone screen */
+@media only screen and (max-device-width: 480px) {
+
+		.selector {
+				padding: 0;
+				margin: 0;
+				}
+				
+html {
+		-webkit-text-size-adjust: none;
+}
+}
