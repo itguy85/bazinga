@@ -1,0 +1,73 @@
+/* This is used for older browser protection */
+@media handheld {
+
+	.selector-01 {
+		padding: 0;
+		margin: 0;
+		}
+	.selector-02 {
+		padding: 0;
+		margin: 0;
+		}
+	.selector-03 {
+		padding: 0;
+		margin: 0;
+		}
+
+}
+
+/* This is used to remove unnecessary fonts, margins, and padding */
+html, body {
+	font: 12px/15px sans-serif;
+	background: #fff;
+	padding: 3px;
+	color: #000;
+	margin: 0;
+	}
+	
+/* This will remove all floats from the mobile site */
+* {
+	float: none;
+	}
+
+/* This is used to hide unwanted elements in the mobile site */
+#gallery, #footer {
+	display: none;
+	}
+
+/* This will remove all heading elements from the mobile site */
+h1, h2, h3, h4, h5, h6 {
+	font-weight: normal;
+	}
+
+/* This ensures all images are mobile friendly */
+#content img { 
+	max-width: 250px;
+	}
+	
+/* This will center all header and footer credits */
+.center {
+	width: 100% !important;
+	text-align: center;
+	}
+	
+/* This controls the links in the mobile site */
+a:link, a:visited {
+	text-decoration: underline;
+	color: #0000CC;
+	}
+a:hover, a:active {
+	text-decoration: underline;
+	color: #660066;
+	}
+	
+/* This code makes the site iPhone friendly */
+@media only screen and (max-device-width: 480px) { 
+
+html {
+		-webkit-text-size-adjust: none;
+		}
+
+}
+	
+ 
