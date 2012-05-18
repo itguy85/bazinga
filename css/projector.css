@@ -1,0 +1,18 @@
+/* Large screens ----------- */
+@media only screen
+and (min-width : 1824px) {
+/* Styles */
+}
+
+header, menu, nav {
+display : block;
+}
+h1.h2.h3.h4 {
+font-size : 1em;
+}
+h1, h2, h3, h4, ul, p {
+margin-bottom : 24px;
+}
+ul {
+margin-left : 3em;
+}
