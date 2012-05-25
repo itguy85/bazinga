@@ -1,0 +1,51 @@
+@media all and (max-width:600px) {
+#gallery, #footer {
+display : none;
+}
+h1, h2, h3, h4, h5, h6 {
+font-weight : normal;
+}
+#content img {
+max-width : 250px;
+}
+.center {
+width : 100% !important ;
+text-align : center;
+}
+a:link, a:visited {
+text-decoration : underline;
+color : #0000cc;
+}
+a:hover, a:active {
+text-decoration : underline;
+color : #660066;
+}
+.tablist {
+width : 100% !important ;
+text-align : center;
+float: right;
+margin-right: 200%;
+}
+.tablist li {
+	float: right;
+	margin-right: 1%;
+}
+
+.tablist li a {
+width : 100% !important ;
+text-align : center;
+display: block;
+padding: 5%;
+text-decoration: none;
+border: 1% solid #000;
+border-bottom: 0;
+color: #33FF33;
+	
+/* These make the tab effect */
+-webkit-border-top-right-radius:15%;
+-webkit-border-top-left-radius:15%;
+border-top-right-radius:15%;
+border-top-left-radius:15%;
+}
+}
+}

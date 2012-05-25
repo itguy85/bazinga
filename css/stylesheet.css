@@ -1,6 +1,6 @@
 .tablist {
 	list-style: none;
-	height: 2em;
+	height: 200%;
 	padding: 0;
 	margin: 0;
 	border: none;
@@ -8,24 +8,26 @@
 
 .tablist li {
 	float: right;
-	margin-right: 0.13em;
+	margin-right: 1%;
 }
 
 .tablist li a {
+	width : 100% !important ;
+	text-align : center;
 	display: block;
-	padding: 0 1em;
+	padding: 5%;
 	text-decoration: none;
-	border: 0.06em solid #000;
+	border: 1% solid #000;
 	border-bottom: 0;
 	color: #33FF33;
 	
 	/* These make the tab effect */
-	-webkit-border-top-right-radius:0.50em;
-	-webkit-border-top-left-radius:0.50em;
-	-moz-border-radius-topright:0.50em;
-	-moz-border-radius-topleft:0.50em;
-	border-top-right-radius:0.50em;
-	border-top-left-radius:0.50em;
+	-webkit-border-top-right-radius:15%;
+	-webkit-border-top-left-radius:15%;
+	-moz-border-radius-topright:15%;
+	-moz-border-radius-topleft:15%;
+	border-top-right-radius:15%;
+	border-top-left-radius:15%;
 }
 
 .tablist li a:hover {
@@ -47,8 +49,8 @@
 body
 {
 font-family: 'Press Start 2P', cursive;
-font-size: 14px;
-line-height: 1.6;
+font-size: 87.5%;
+line-height: 150%;
 color: #000000;
 margin: 0;
 background-color: #000000;
@@ -56,7 +58,7 @@ background-color: #000000;
 
 #container
 {
-width: 790px;
+width: 100%;
 background-color: #000000;
 margin: 0 auto;
 }
@@ -64,10 +66,11 @@ margin: 0 auto;
 #piccontainer
 {
 position: relative;
-width: 770px;
-height: 396px;
-margin: 20px auto 0 auto;
-border: 1px solid #aaa;
+width: 80%;
+height: 20%;
+margin: 25% auto 0 auto;
+border: 1% solid #aaa;
+text-decoration: none;
 }
 
 #piccontainer ul
@@ -75,40 +78,41 @@ border: 1px solid #aaa;
 padding: 0;
 margin: 0;
 list-style-type: none;
+text-decoration: none;
 }
 
 #piccontainer a.gallery span
 {
 position: absolute;
-width: 1px;
-height: 1px;
-top: 5px;
-left: 5px;
+width: 1%;
+height: 1%;
+top: 5%;
+left: 5%;
 overflow: hidden;
 background: #fff;
 }
 
 #piccontainer a.gallery:hover
 {
-border: 1px solid #fff;
+border: 1% solid #fff;
 }
 
 #piccontainer a.gallery:hover span
 {
 position: absolute;
-width: 372px;
-height: 372px;
-top: 10px;
-left: 75px;
+width: 10%;
+height: 10%;
+top: 10%;
+left: 30%;
 color: #000;
 background: #fff;
 }
 
 #piccontainer a.gallery:hover img
 {
-border: 1px solid #fff;
+border: 1% solid #fff;
 float: left;
-margin-right: 5px;
+margin-right: 5%;
 }
 
 #piccontainer a.gallery, #piccontainer a.gallery:visited
@@ -116,8 +120,8 @@ margin-right: 5px;
 display: block;
 color: #000;
 text-decoration: none;
-border: 1px solid #000;
-margin: 1px 2px 1px 2px;
+border: 1% solid #000;
+margin: 1% 2% 1% 2%;
 text-align: left;
 cursor: default;
 }
@@ -125,47 +129,57 @@ cursor: default;
 #piccontainer a.slidea
 {
 background: url(../images/sheldon-cooper-cereal-thumb.jpg);
-height: 93px;
-width: 100px;
+text-decoration: none;
+list-style-type: none;
+height: 93%;
+width: 100%;
 }
 
 #piccontainer a.slideb
 {
 background: url(../images/sheldon-cooper-nerd-thumb.jpg);
-height: 93px;
-width: 100px;
+text-decoration: none;
+list-style-type: none;
+height: 93%;
+width: 100%;
 }
 
 #piccontainer a.slidec
 {
 background: url(../images/sheldon-cooper-piano-thumb.jpg);
-height: 93px;
-width: 100px;
+text-decoration: none;
+list-style-type: none;
+height: 93%;
+width: 100%;
 }
 
 #piccontainer a.slided
 {
 background: url(../images/super-heros-thumb.jpg);
-height: 93px;
-width: 100px;
+list-style-type: none;
+text-decoration: none;
+height: 93%;
+width: 100%;
 }
 
 #piccontainer ul
 {
-width: 198px;
-height: 386px;
-margin: 5px;
+width: 100%;
+height: 50%;
+margin: 5%;
+text-decoration: none;
 float: right;
 }
 
 #piccontainer li
 {
 float: left;
+text-decoration: none;
 }
 
 #header
 {
-padding: 40px 20px;
+padding: 1% 5%;
 background-color: #000000;
 text-align: center;
 color: #33FF33;
@@ -179,7 +193,7 @@ opacity: 0.4;
 #content
 {
 width: 510px;
-padding: 10px 20px;
+padding: 30px 20px;
 background-color:#000000;
 color: #33FF33;
 font-family: 'Varela', sans-serif;
@@ -192,26 +206,26 @@ outline: none;
 cursor: pointer;
 text-align: center;
 text-decoration: none;
-font: 14px/100% Arial, Helvetica, sans-serif;
-padding: .5em 2em .55em;
-text-shadow: 0 1px 1px rgba(0,0,0,.3);
--webkit-border-radius: .5em;
--moz-border-radius: .5em;
-border-radius: .5em;
--webkit-box-shadow: 0 1px 2px rgba(0,0,0,,2);
--moz-box-shadow: 0 1px 2px rgba(0,0,0,.2);
-box-shadow: 0 1px 2px rgba(0,0,0,.2);
+font: 100% Arial, Helvetica, sans-serif;
+padding: 2% 8% 1%;
+text-shadow: 0 1% 1% rgba(0,0,0,.3);
+-webkit-border-radius: 5%;
+-moz-border-radius: 5%;
+border-radius: 5%;
+-webkit-box-shadow: 0 1% 2% rgba(0,0,0,,2);
+-moz-box-shadow: 0 1% 2% rgba(0,0,0,.2);
+box-shadow: 0 1% 2% rgba(0,0,0,.2);
 }
 
 .button:active
 {
 position: relative;
-top: 1px;
+top: 1%;
 }
 
 .orange {
 color: #fef4e9;
-border: solid 1px #da7c0c;
+border: solid 1% #da7c0c;
 background: #f78d1d;
 background: -webkit-gradient(linear, left top, left bottom, from(#f88e11), to(#f06015));
 background: -moz-linear-gradient(top,  #faa51a,  #f47a20);
@@ -220,7 +234,7 @@ background: -moz-linear-gradient(top,  #faa51a,  #f47a20);
 .left
 {
 float: left;
-margin: 3px;
+margin: 3%;
 }
 
 #sidebar
@@ -235,18 +249,18 @@ color: #33FF33;
 #footer
 {
 clear: both;
-padding: 10px 20px;
+padding: 10% 20%;
 background-color: #000000;
-opacity: 0.4;
+opacity: 70%;
 text-align: center;
 color: #33FF33;
 }
 
 h1
 {
-font-size: 16px;
+font-size: 100%;
 text-transform: uppercase;
-text-shadow: 1px 1px 1px #000, 3px 3px 5px blue;
+text-shadow: 5% 5% 5% #000, 15% 15% 15% blue;
 }
 
 #header h1, #footer h1
